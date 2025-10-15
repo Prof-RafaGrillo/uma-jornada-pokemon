@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura Pokemon</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img class="img01" src="./pokemon.png" alt="">
+            <p>Você acabou de receber seu primeiro Pokémon e começa sua jornada!
+Um professor da sua cidade te entrega a Pokébola e pergunta:
+</p>
+            <button class="btn-proximo" data-proximo="1">Rota da Floresta
+</button>
+            <button class="btn-proximo" data-proximo="2">Rota da Montanha
+</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img class="img01" src="./floresta.jpg" alt="">
+            <p>No meio do caminho da floresta você encontrou um pokemon
+</p>
+            <button class="btn-proximo" data-proximo="11">Tentar Capturar
+</button>
+            <button class="btn-proximo" data-proximo="12">Tentar Espantar
+        </div>
+        <div class="passo" id="passo-2">
+            <img class="img01" src="./montanha.jpg" alt="">
+            <p>No meio do caminho da montanha você encontrou seu Rival Gary, e ele quer batalhar com você
+</p>
+            <button class="btn-proximo" data-proximo="21">Aceitar a batalha do rival
+            <button class="btn-proximo" data-proximo="22">Evitar a Luta
+</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img class="img01" src="./leafonMachuado.jpeg" alt="">
+            <p>Você tentou capturar ele mais percebeu que ele está ferido
+</p>
+            <button class="btn-proximo" data-proximo="111">Você vai ajudar
+</button>
+            <button class="btn-proximo" data-proximo="112">Você vai ignorar
+</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <img class="img01" src="./montanha.jpg" alt="">
+            <p>Você tentou espantar ele mais um bando apareceu
+</p>
+            <button class="btn-proximo" data-proximo="121">Você vai lutar
+</button>
+            <button class="btn-proximo" data-proximo="122">Você vai tentar fugir
+</button>
+        </div>
+        <div class="passo" id="passo-21">
+            <img class="img01" src="./montanha.jpg" alt="">
+            <p>Você lutou contra ele e ele ficou impressionado
+</p>
+            <button class="btn-proximo" data-proximo="211">Aceitar viajar com ele
+</button>
+            <button class="btn-proximo" data-proximo="212">Recusar viajar com ele
+</button>
+        </div>
+        <div class="passo" id="passo-22">
+            <img class="img01" src="./montanha.jpg" alt="">
+            <p>Você evitou a luta e precisa encontrar um caminho para fugir.
+</p>
+            <button class="btn-proximo" data-proximo="221">Entrar na caverna Escura
+</button>
+            <button class="btn-proximo" data-proximo="222">Procurar outro caminho
+</button>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>
